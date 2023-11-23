@@ -1,0 +1,154 @@
+.dropdown {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dropdown h1{
+    color: #324755;
+  }
+
+  .dropdown p{
+    color: #6E8CA0;
+    font-size: 18px;
+    font-family: Heebo;
+    font-weight: 300;
+  }
+
+  .dropdown-item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column;
+    min-height: 130px;
+  }
+
+  .dropdown h1{
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.dropdown-menu div {  
+    font-family: Heebo;
+  }
+  
+  .toggle-button {
+    display: flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    background-color: #32475500;
+    padding: 1.5em;
+    border-bottom: solid;
+    border-width: 1.8px;
+    border-bottom-color: rgba(0, 0, 0, 0.128);
+}
+
+.dropdown-menu {
+  overflow-y: hidden;
+  scrollbar-width: thin;
+  position: relative;
+  max-width: 100%;
+  list-style: none;
+  transition: height 2s ease-in-out, opacity 2s cubic-bezier(0, 0.2, 0.795, 0.9);
+  height: 0;
+  opacity: 0;
+}
+
+.dropdown-menu span{
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-menu.closing {
+  height: 0;
+}
+
+.removedropdown{
+  display: none;
+}
+
+.toggle-button img{
+  width: 40px;
+  border: solid;
+  border-radius: 12em;
+  background-color: white;
+  border-color: white;
+  box-shadow: rgb(0, 0, 0) 0px 10px 30px -12px;
+}
+
+.toggle-button h1{
+  padding-left: 0.5em;
+}
+
+.swipe img{
+    min-width: 80px;
+    min-height: 80px;
+    max-width: 80px;
+    max-height: 80px;
+    object-fit: fill;
+    border: solid;
+    border-radius: 5em;
+    border-color: rgba(255, 255, 255, 0);
+    margin-right: 1.5em;
+    display: flex;
+    justify-self: start;
+}
+
+.swipe-right img{
+    max-width: 3vh;
+    filter: brightness(100);
+    pointer-events: none; // This will make the image not clickable
+}
+
+  .swipe-right{
+    min-width: 25%;
+    background-color: #87BCBF;
+    border-style: none;
+    display: grid;
+    justify-self: end;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1 / 1;
+  }
+  .swipe {  
+    width: 200%;
+    display: flex;
+    padding: 0.5em;
+    align-items: center;
+    background-color: white;
+    z-index: 2;
+    border-bottom: solid;
+    border-width: 1.5px;
+    border-bottom-color: rgba(0, 0, 0, 0.101);
+  }
+
+  .swipe-relative .swipe-right {
+    position: relative;
+    right: 0;
+  }
+
+.swipe-delete{
+    background-color: #D95454;
+}
+
+.swipe-delete img{
+    filter: invert(100%);
+}
+
+.swipe p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.closed{
+  box-shadow: rgb(0, 0, 0) 0px 10px 30px -5px;
+}
+
+.open{
+opacity: 1;
+}

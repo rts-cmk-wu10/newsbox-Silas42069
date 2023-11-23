@@ -1,0 +1,7 @@
+import "./style.scss"
+import "./scripts/settings.js"
+import "./scripts/inbox.js"
+import "./scripts/archive.js"
+import "./scripts/clock.js"
+import "./scripts/dropdown.js"
+import "./scripts/darkmode.js"

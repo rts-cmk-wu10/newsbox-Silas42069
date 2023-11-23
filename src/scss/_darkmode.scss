@@ -1,0 +1,72 @@
+body.darkmode {
+    background-color: #111214;;
+    header{
+        background-color: #324755;
+        color: rgba(246, 246, 246, 0.685);
+        nav{
+            color: #87BCBF;
+        }
+        nav i{
+            color: #87BCBF;
+        }
+        .topnav{
+            color: black;
+                filter: invert(0.8);
+        }
+    }
+    .settings {
+        background-color: #6e8ca01f;
+    }
+    .settings-menu{
+        background-color: #324755;
+        h1{
+            color: rgba(255, 255, 255, 0.667);
+        }
+    }
+    main{
+        background-color: #324755;
+    }
+    .dropdown{
+        h1{
+            color: #87BCBF;
+        }
+        i{
+            color: #87BCBF;
+        }
+        .swipe{
+            background-color: #324755;
+        }
+    }
+    .toggle-button img{
+        background-color: #324755;
+        border-color: #324755;
+        box-shadow: rgb(0, 0, 0) 0px 10px 20px -10px;
+    }
+    .search-form{
+        .search-input{
+            background-color: #6E8CA0;
+        }
+    }
+    .modebutton{
+        color: black;
+        filter: invert(0.8);
+    }
+    .toggle{
+        background-color: #11121475;
+    }
+    .toggle:checked{
+        background-color: #87BCBF;
+    }
+    .toggle:checked:before{
+        background-color: rgb(255, 255, 255);
+    }
+    .toggle:before{
+        background-color: rgba(201, 201, 201, 0.686);
+    }
+}
+
+@mixin transition($var) {
+	transition: $var 800ms ease;
+}
+
+

@@ -1,0 +1,113 @@
+.settings{
+    background-color: #c8d1d356;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.settings-menu{
+    display: flex;
+    margin-top: 4em;
+    width: 50vh;
+    background-color: white;
+    align-self: center;
+    flex-direction: column;
+    border-radius: 1.5em;
+
+}
+
+.settings-item{
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0em 2em 0em 2em;
+    border-bottom: solid;
+    border-width: 1.5px;
+    border-bottom-color: rgba(0, 0, 0, 0.075);
+}
+
+.title{
+    padding-top: 5vh;
+    display: grid;
+    justify-items: center;
+}
+
+h2{
+font-size: 5vh;
+color: #87BCBF;
+}
+
+h3{
+    color: #666666;
+    font-weight: 400;
+    font-size: 3vh;
+    opacity: 80%;
+}
+
+.settings span{
+    margin-top: 1.5em;
+    width: 50px;
+    height: 1px;
+    background-color: white;
+}
+
+.modebutton{
+    margin-top: 4em;
+    height: 6.5vh;
+    width: 23vh;
+    background-color: #ffffff00;
+    border-width: 1px;
+    border-radius: 5em;
+    font-size: 1.8vh;
+    border-color: #3247553b;
+    color: #324755;
+}
+
+.lastsetting{
+    border-bottom: none;
+}
+
+.toggle {
+    appearance: none;
+    width: 62px;
+    height: 32px;
+    position: relative;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color ease 0.3s;
+    background-color: #6e8ca036;
+  }
+  
+  .toggle:before {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    background: #ffffff;
+    left: 2px;
+    top: 2px;
+    border-radius: 50%;
+    word-spacing: 37px;
+    color: #fff;
+    transition: all cubic-bezier(0.3, 1.5, 0.7, 1) 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.349) 0px 5px 12px;
+}
+  
+  .toggle:checked {
+    background-color: #87BCBF;
+  }
+  
+  .toggle:checked:before {
+    left: 32px;
+  }
+
+.foottext{
+    margin-top: 2.5em;
+    font-size: 1.5vh;
+    font-weight: 200;
+    margin-bottom: 3em;
+}

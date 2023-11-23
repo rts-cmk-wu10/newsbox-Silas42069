@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;600;800&display=swap');
+
+html{
+    font-family: Heebo;
+}
+
+body{
+    display: flex;
+    background-color: rgb(190, 190, 190);
+    justify-content: center;
+}
+
+nav h1{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+  nav i{
+    font-size: 30px;
+}
+
+.arrow{
+    font-size: 30px;
+    color: #324755;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    right: 0;
+    position: absolute;
+    margin-right: 1em;
+}
+
+.clock-container{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+a{
+    color: #324755;
+}   
+
+.inbox{
+    display: flex;
+    max-width: 60vh;
+    height: 100vh;
+    background-color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 60vh;
+}
+
+header{
+    width: 100%;
+    padding: 1.5em;
+    border-bottom: solid;
+    border-width: 1.5px;
+    border-bottom-color: rgba(0, 0, 0, 0.119);
+    z-index: 1;
+}
+
+nav img{
+    width: 30px;
+}
+
+li{
+    cursor: pointer;
+}
+
+.topnav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.topnavimgs img{
+    margin: 0em 3px 0em 3px;
+    width: 2.5vh;
+}
+
+nav{
+    color: #324755;
+    margin: 0em 0.5em 0em 0.5em;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav li{
+    list-style: none;
+    align-self: center;
+}
+
+.clock-container{
+    padding-left: 0.5em;
+}
+
+.theme--dark {
+    .body {
+        background-color: #000000;
+    }
+ }
