@@ -1,0 +1,36 @@
+form{
+    display: grid;
+    align-items: center;
+    border-bottom: solid;
+    border-width: 1.8px;
+    border-bottom-color: rgba(0, 0, 0, 0.128);
+    padding: 1em;
+    position: relative;
+}
+
+::placeholder{
+    color: #324755;
+    font-size: 2vh;
+    font-weight: 300;
+}
+
+.search-input{
+    height: 6vh;
+    border-radius: 0.5em;
+    border: none;
+    background-color: #C8D1D3;
+    opacity: 25%;
+    padding-left: 4.5em;
+}
+
+
+
+form button{
+    position: absolute;
+    justify-self: right;
+    border: none;
+    background-color: rgba(255, 0, 0, 0);
+    font-size: 3vh;
+    padding-right: 1.5em;
+    opacity: 10%;
+}
